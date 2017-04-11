@@ -1,0 +1,138 @@
+﻿<sentences>
+	<element title="userName">
+		<sentence>Eh mec, je me présente, je m'appelle $$ .</sentence>
+		<sentence>Bonjour, je m'appelle $$ .</sentence>
+		<sentence>Salutations. Maître $$ , dans son monde perché, tenait en son bec une histoire...</sentence>
+		<sentence>Salutations, je suis $$ , je viens en paix.</sentence>
+		<sentence>Bonjour. Qu'entends-je par là ? Je vous souhaite le bonjour ou je constate que c'est une bonne journée, que vous le veuillez ou non, ou encore que c'est une journée où il faut être bon ? Quoi qu'il en soit, je me prénomme $$ , enchanté.</sentence>
+	</element>
+	<element title="userAge">
+		<sentence>J'ai déjà vu passé $$ printemps.</sentence>
+		<sentence>J'ai $$ ans.</sentence>
+		<sentence>J'ai $$ balais.</sentence>
+		<sentence>Les années passent, et j'en suis à ma $$ ème.</sentence>
+		<sentence>Quand $$ ans comme moi tu auras, un maître jedi tu seras.</sentence>
+		<sentence>L'anneau vint à moi et m'apporta une vie étonnamment longue, pendant $$ ans que je suis parmis vous.</sentence>
+	</element>
+	<element title="userSexeWoman">
+		<sentence>Je suis $$ et fière de l'être !</sentence>
+	</element>
+	<element title="userSexeMan">
+		<sentence>Je suis $$ et fier de l'être !</sentence>
+	</element>
+	<element title="searchedPlayersNumber">
+		<sentence>Je cherche encore $$ joueurs pour une partie.</sentence>
+		<sentence>Je cherche encore $$ aventuriers.</sentence>
+		<sentence>Une aventures, une quêtes ? Il reste de la place pour $$ personnes.</sentence>
+	</element>
+	<element title="regPlayersNumber">
+		<sentence>Il y a déjà $$ joueurs inscrits.</sentence>
+		<sentence>Aujourd'hui, $$ aventuriers sont prêts à se brûler les doigts.</sentence>
+		<sentence>A l'heure qu'il est, $$ aventuriers sont prêts à risquer leurs vies.</sentence>
+	</element>
+	<element title="maxPlayersNumber">
+		<sentence>Vous serez au maximum $$ joueurs autour de la table.</sentence>
+		<sentence>Il y a de la place pour $$ personnes.</sentence>
+		<sentence>Vous serez en tout $$ dans votre compagnie.</sentence>
+	</element>
+	<element title="fullGame">
+		<sentence>Malheureusement, la partie est pleine, plus de place.</sentence>
+		<sentence>L'aventure a tellement fait parlée d'elle que la compagnie d'aventuriers est pleine.</sentence>
+	</element>
+	<element title="cancelledGame">
+		<sentence>Malheureusement, la partie est annulée, sorry.</sentence>
+		<sentence>L'aventure est annulée, serait-ce pour une prochaine fois ?</sentence>
+	</element>
+	<element title="specialEvent">
+		<sentence>Il s'agit d'un évènement spécial (Salon, convention, rencontre,...).</sentence>
+	</element>
+	<element title="gameName">
+		<sentence>Ce sera une partie de ce JDR : </sentence>
+		<sentence>Les règles, l'ambiance, le contexte sont tirés de ce JDR : </sentence>
+	</element>
+	<element title="severalGames">
+		<sentence>Il y aura plusieurs jeux maîtrisés.</sentence>
+		<sentence>Plusieurs jeux seront maîtrisés.</sentence>
+		<sentence>Puisque un c'est trop peu, il y aura plusieurs JDR maîtrisés.</sentence>
+	</element>
+	<element title="severalGameMasters">
+		<sentence>Plusieurs maîtres de jeu seront présents.</sentence>
+		<sentence>Nous seront plusieurs à masteuriser.</sentence>
+	</element>
+	<element title="gameType">
+		<sentence>Le type d'édition du jeu est </sentence>
+	</element>
+	<element title="scriptName">
+		<sentence>Le scénario s'intitule </sentence>
+		<sentence>L'aventure s'intitule </sentence>
+	</element>
+	<element title="scriptType">
+		<sentence>Ce scénario est de source </sentence>
+	</element>
+	<element title="severalSessions">
+		<sentence>Ce scénario est prévu pour être joué en plusieurs parties.</sentence>
+		<sentence>Plusieurs parties diviseront ce scénario.</sentence>
+	</element>
+	<element title="dateTime">
+		<sentence>Rendez-vous le </sentence>
+		<sentence>L'aventure aura lieu le </sentence>
+		<sentence>Retrouvons-nous tous quand le dernier rayon du soleil aura atteint la plus haute cime du mont Siriata, c'est à dire le </sentence>
+	</element>
+	<element title="realAddress">
+		<sentence>Voici le lieu : </sentence>
+		<sentence>L'aventure aura lieu dans cet endroit : </sentence>
+	</element>
+	<element title="placeType">
+		<sentence>Cela se jouera </sentence>
+	</element>
+	<element title="nearCity">
+		<sentence>Cela se trouve proche de </sentence>
+		<sentence>Pour info, l'une des villes les plus proches est </sentence>
+	</element>
+	<element title="moreInfo">
+		<sentence>Voici plus d'informations : </sentence>
+		<sentence>Plus d'info ? </sentence>
+	</element>
+	<element title="permittedUnderagesYes">
+		<sentence>Les mineurs peuvent s'inscrire.</sentence>
+		<sentence>Les moins de 18 ans peuvent s'inscrire.</sentence>
+	</element>
+	<element title="permittedUnderagesNo">
+		<sentence>Les mineurs ne peuvent pas s'inscrire, désolé.</sentence>
+		<sentence>Les moins de 18 ans ne peuvent pas s'inscrire, désolé.</sentence>
+	</element>
+	<element title="registredUnderages">
+		<sentence>Il y a déjà des mineurs inscrits.</sentence>
+	</element>
+	<element title="drinkFoodPermissionBring">
+		<sentence>Veuillez amener à boire et à manger.</sentence>
+		<sentence>J'aimerais que vous ameniez à boire et à manger.</sentence>
+	</element>
+	<element title="drinkFoodPermissionOk">
+		<sentence>Vous pouvez, si vous le souhaitez, amener à boire et à manger.</sentence>
+	</element>
+	<element title="drinkFoodPermissionNo">
+		<sentence>Evitez d'amener à boire et à manger.</sentence>
+	</element>
+	<element title="alcoholPermissionBring">
+		<sentence>Veuillez amener de l'alcool.</sentence>
+		<sentence>On paye tous notre tournée! Veuillez amener de l'alcool.</sentence>
+		<sentence>J'ai toujours voulu savoir qui était ce Modération, on va essayer de le faire apparaître, vous voulez bien amener de l'alcool ?</sentence>
+	</element>
+	<element title="alcoholPermissionOk">
+		<sentence>Vous pouvez, si vous le souhaitez, amener de l'alcool.</sentence>
+	</element>
+	<element title="alcoholPermissionNo">
+		<sentence>Evitez d'amener de l'alcool.</sentence>
+		<sentence>Pour éviter tout débordement inutile, évitez d'amener de l'alcool ^^</sentence>
+	</element>
+	<element title="smokePermissionYes">
+		<sentence>Il est possible de fumer à l'intérieur.</sentence>
+	</element>
+	<element title="smokePermissionNo">
+		<sentence>Il ne sera pas possible de fumer à l'intérieur.</sentence>
+	</element>
+	<element title="comments">
+		<sentence>Voici quelques commentaires</sentence>
+	</element>
+</sentences>

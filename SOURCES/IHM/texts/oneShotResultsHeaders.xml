@@ -1,0 +1,16 @@
+﻿<headers>
+	<element title="Date" size="160" infoCodeName="eventDateTime" />
+	<element title="Ville à proximité" size="150" infoCodeName="nearCity" />
+	<element title="Lieu" size="150" infoCodeName="realAddress" />
+	<element title="Pseudonyme" size="100" infoCodeName="userName" />
+	<element title="Âge" size="40" infoCodeName="userAge" />
+	<element title="Spécial" size="50" infoCodeName="specialEvent" />
+	<element title="Nom du JDR" size="150" infoCodeName="gameName" />
+	<element title="Titre du scénario" size="200" infoCodeName="scriptName" />
+	<element title="Nombre" size="80" infoCodeName="playersNumberRatio" />
+	<element title="Mineurs inscrits" size="120" infoCodeName="registeredUnderages" />
+	<element title="Permission mineurs" size="120" infoCodeName="permittedUnderages" />
+	<element title="Boire/Manger" size="80" infoCodeName="drinkFoodPermission" />
+	<element title="Alcool" size="80" infoCodeName="alcoholPermission" />
+	<element title="Fumer" size="80" infoCodeName="smokeInsidePermission" />
+</headers>

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>interrogationPoint.png</file>
+        <file>one_shot_main.png</file>
+        <file>eye.png</file>
+        <file>star.png</file>
+        <file>smokeYes.png</file>
+        <file>smokeNo.png</file>
+        <file>alcoholBring.png</file>
+        <file>alcoholNo.png</file>
+        <file>alcoholOK.png</file>
+        <file>drinkFoodNo.png</file>
+        <file>drinkFoodBring.png</file>
+        <file>drinkFoodOK.png</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>

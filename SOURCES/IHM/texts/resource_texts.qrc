@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>listOfCities.ini</file>
+        <file>oneShotResultsHeaders.xml</file>
+        <file>oneShotPageRandomSentences.xml</file>
+    </qresource>
+</RCC>

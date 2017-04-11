@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OneShotCreateDialog</class>
+ <widget class="QDialog" name="OneShotCreateDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>997</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Création/Edition d'une annonce de OneShot</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_7">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>960</width>
+        <height>963</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="5" column="1">
+        <spacer name="verticalSpacer_12">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>17</width>
+           <height>14</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="8" column="0">
+        <spacer name="horizontalSpacer_15">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>391</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="8" column="1" colspan="2">
+        <widget class="QPushButton" name="createEdit_pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>75</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Créer/Editer</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3">
+        <spacer name="horizontalSpacer_16">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>282</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="2">
+        <spacer name="horizontalSpacer_18">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="0" colspan="4">
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="title">
+          <string>Contact (choisissez au moins un moyen pour vous contacter)</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>e-mail (optionnel)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_21">
+            <property name="text">
+             <string>Facebook (optionnel)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QCheckBox" name="forumTitle_checkbox">
+            <property name="text">
+             <string>Je vais créer un sujet sur
+le forum avec ce titre :</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer_19">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>66</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="phoneNumber_lineEdit">
+            <property name="maxLength">
+             <number>64</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="email_lineEdit">
+            <property name="maxLength">
+             <number>64</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLineEdit" name="facebook_lineEdit">
+            <property name="maxLength">
+             <number>64</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLineEdit" name="forumTitle_lineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maxLength">
+             <number>128</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <spacer name="horizontalSpacer_20">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>66</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>Téléphone (optionnel)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6" rowspan="2">
+           <spacer name="horizontalSpacer_21">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>66</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>Permissions</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="3">
+           <spacer name="verticalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>S'inscrire s'ils
+sont mineurs</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="4">
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>92</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="4" column="5" rowspan="3">
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>29</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="4">
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>92</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="6" column="1">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Alcool</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3" colspan="2">
+           <widget class="QComboBox" name="alcoholPermission_comboBox">
+            <item>
+             <property name="text">
+              <string>Peu importe</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Je leur demande d'en amener</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Il est interdit d'en amener</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="3" rowspan="2" colspan="2">
+           <widget class="QComboBox" name="drinkFoodPermission_comboBox">
+            <item>
+             <property name="text">
+              <string>Peu importe</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Je leur demande d'en amener</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Il est interdit d'en amener</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="8" column="3">
+           <widget class="QComboBox" name="smokeInsidePermission_comboBox">
+            <item>
+             <property name="text">
+              <string>Interdit</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Autorisé</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="4" column="0" rowspan="3">
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>29</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="3">
+           <widget class="QComboBox" name="permittedUnderages_comboBox">
+            <item>
+             <property name="text">
+              <string>Oui</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Non</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Boire/Manger</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Fumer à l'interieur</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="3">
+           <spacer name="verticalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <spacer name="verticalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="5" column="3">
+           <spacer name="verticalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="7" column="3">
+           <spacer name="verticalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="title">
+          <string>Lieu</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="3">
+           <widget class="QLineEdit" name="realAddress_lineEdit">
+            <property name="maxLength">
+             <number>128</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <spacer name="horizontalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>92</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>Ville à proximité</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="2">
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>Ville, rue, ...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>3</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="4">
+           <spacer name="horizontalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>92</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>Type de lieu</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <spacer name="horizontalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>98</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="5" column="3">
+           <widget class="QComboBox" name="placeType_comboBox">
+            <item>
+             <property name="text">
+              <string>Chez quelqu'un</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Dans un bar/restaurant</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Dans une salle</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>A l'extérieur</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>92</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="5" column="4">
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>92</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="4" column="3">
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="5" column="0">
+           <spacer name="horizontalSpacer_13">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>92</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="3" column="0" colspan="5">
+           <widget class="OneCitySelectionTreeWidget" name="nearCity_customTreeWidget" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>230</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <spacer name="verticalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="4">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>Jeu et scénario</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>Provenance du scénario</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLineEdit" name="scriptName_lineEdit">
+            <property name="maxLength">
+             <number>128</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="4">
+           <widget class="QCheckBox" name="severalSessions_checkBox">
+            <property name="text">
+             <string>Plusieurs parties prévues</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QComboBox" name="gameEditionType_comboBox">
+            <item>
+             <property name="text">
+              <string>Commercial</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Amateur</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Personnel</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>Nom du JDR</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QCheckBox" name="severalGames_checkBox">
+            <property name="text">
+             <string>Plusieurs jeux maîtrisés</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QComboBox" name="scriptSourceType_comboBox">
+            <item>
+             <property name="text">
+              <string>Du commerce</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Internet</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Personnel</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>Nom du scénario</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="gameName_lineEdit">
+            <property name="maxLength">
+             <number>128</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>Type d'édition</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <spacer name="horizontalSpacer_17">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="4">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Votre identité</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="1" column="3">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="userName_lineEdit">
+            <property name="maxLength">
+             <number>64</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="password_lineEdit">
+            <property name="maxLength">
+             <number>24</number>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Pseudonyme</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Mot de passe (simple)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="showPassword_button">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../images/resource_images.qrc">
+              <normaloff>:/eye.png</normaloff>:/eye.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" rowspan="2" colspan="5">
+           <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <pointsize>7</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(166, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>Attention : le mot de passe est irrécupérable et peu sécurisé
+Il est conseillé qu'il soit le plus simple à retenir pour vous
+Entre 2 et 24 caractères</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="6">
+           <widget class="QComboBox" name="userSexe_comboBox">
+            <item>
+             <property name="text">
+              <string>Femme</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Homme</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Ne pas stipuler</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>Sexe</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="7">
+           <widget class="QSpinBox" name="age_spinbox">
+            <property name="maximum">
+             <number>122</number>
+            </property>
+            <property name="value">
+             <number>42</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Âge</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="7">
+           <widget class="QCheckBox" name="hideAge_checkbox">
+            <property name="text">
+             <string>Ne pas stipuler</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="9" rowspan="2">
+           <widget class="QCheckBox" name="severalGameMasters_checkBox">
+            <property name="text">
+             <string>Nous sommes
+plusieurs MJ</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Date</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0" rowspan="2" colspan="2">
+           <widget class="QDateTimeEdit" name="dateTimeEdit">
+            <property name="displayFormat">
+             <string>d MMMM yyyy à H:mm</string>
+            </property>
+            <property name="calendarPopup">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="specialEvent_checkBox">
+            <property name="text">
+             <string>Il s'agit d'un évènement spécial
+(Salon, Convention, Rencontre, ...)</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="3">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Nombre de Joueurs autour de la table (sans le MJ)</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="1" column="2">
+           <widget class="QSpinBox" name="maximumPlayersNumber_spinBox">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="maximum">
+             <number>255</number>
+            </property>
+            <property name="value">
+             <number>5</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>36</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Maximum</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Déjà inscrits</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QCheckBox" name="markFull_checkBox">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(166, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>Marquer comme [COMPLET]</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="registeredPlayersNumber_spinBox">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="maximum">
+             <number>255</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <widget class="QCheckBox" name="markCancel_checkBox">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(166, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>Marquer comme [ANNULE]</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QCheckBox" name="registeredUnderages_checkBox">
+            <property name="text">
+             <string>Des mineurs
+sont déjà inscrits</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="4">
+        <widget class="QGroupBox" name="groupBox_8">
+         <property name="title">
+          <string>Commentaires (128 caractères maximum)</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="comments_lineEdit">
+            <property name="maxLength">
+             <number>255</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>OneCitySelectionTreeWidget</class>
+   <extends>QWidget</extends>
+   <header>onecityselectiontreewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>registeredPlayersNumber_spinBox</tabstop>
+  <tabstop>maximumPlayersNumber_spinBox</tabstop>
+  <tabstop>markFull_checkBox</tabstop>
+  <tabstop>markCancel_checkBox</tabstop>
+  <tabstop>registeredUnderages_checkBox</tabstop>
+  <tabstop>dateTimeEdit</tabstop>
+  <tabstop>specialEvent_checkBox</tabstop>
+  <tabstop>userName_lineEdit</tabstop>
+  <tabstop>password_lineEdit</tabstop>
+  <tabstop>showPassword_button</tabstop>
+  <tabstop>userSexe_comboBox</tabstop>
+  <tabstop>age_spinbox</tabstop>
+  <tabstop>hideAge_checkbox</tabstop>
+  <tabstop>severalGameMasters_checkBox</tabstop>
+  <tabstop>gameEditionType_comboBox</tabstop>
+  <tabstop>gameName_lineEdit</tabstop>
+  <tabstop>severalGames_checkBox</tabstop>
+  <tabstop>scriptSourceType_comboBox</tabstop>
+  <tabstop>scriptName_lineEdit</tabstop>
+  <tabstop>severalSessions_checkBox</tabstop>
+  <tabstop>realAddress_lineEdit</tabstop>
+  <tabstop>placeType_comboBox</tabstop>
+  <tabstop>permittedUnderages_comboBox</tabstop>
+  <tabstop>drinkFoodPermission_comboBox</tabstop>
+  <tabstop>alcoholPermission_comboBox</tabstop>
+  <tabstop>smokeInsidePermission_comboBox</tabstop>
+  <tabstop>phoneNumber_lineEdit</tabstop>
+  <tabstop>email_lineEdit</tabstop>
+  <tabstop>facebook_lineEdit</tabstop>
+  <tabstop>forumTitle_checkbox</tabstop>
+  <tabstop>forumTitle_lineEdit</tabstop>
+  <tabstop>createEdit_pushButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../images/resource_images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
